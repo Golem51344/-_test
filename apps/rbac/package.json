@@ -1,0 +1,33 @@
+{
+  "name": "@pubinfo/rbac",
+  "type": "module",
+  "version": "1.5.3-beta.2",
+  "private": true,
+  "description": "用户权限管理",
+  "scripts": {
+    "dev": "vite",
+    "serve": "vite dev",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 vite build",
+    "build:test": "cross-env NODE_OPTIONS=--max-old-space-size=8192 vue-tsc && vite build --mode test",
+    "clean": "pnpm rimraf .turbo node_modules rbac rbac.zip",
+    "preview": "vite preview",
+    "svgo": "svgo -f src/assets/icons",
+    "lint": "npm-run-all -s lint:tsc lint:eslint lint:stylelint",
+    "lint:eslint": "eslint . --cache --fix",
+    "lint:stylelint": "stylelint \"src/**/*.{css,scss,vue}\" --cache --fix",
+    "lint:tsc": "vue-tsc --noEmit --skipLibCheck",
+    "preinstall": "npx only-allow pnpm",
+    "openapi": "pnpx @pubinfo/openapi generate"
+  },
+  "dependencies": {
+    "@pubinfo/components": "workspace:^",
+    "@pubinfo/composables": "workspace:^",
+    "@pubinfo/directives": "workspace:^",
+    "@pubinfo/themes": "workspace:^",
+    "@pubinfo/utils": "workspace:^"
+  },
+  "devDependencies": {
+    "@pubinfo/tsconfig": "workspace:^",
+    "@pubinfo/vite": "workspace:^"
+  }
+}

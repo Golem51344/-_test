@@ -1,0 +1,37 @@
+{
+  "extends": "@pubinfo/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "#/*": [
+        "types/*"
+      ]
+    },
+    "types": [
+      "vite-plugin-vue-meta-layouts/client",
+      "@intlify/unplugin-vue-i18n/messages",
+      "unplugin-icons/types/vue"
+    ]
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**/*.d.ts",
+    "types/**/*.ts"
+  ],
+  "exclude": [
+    "types/router.d.ts",
+    "../../packages/components/src/index.ts",
+    "**/node_modules/**"
+  ]
+}

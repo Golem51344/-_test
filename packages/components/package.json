@@ -1,0 +1,16 @@
+{
+  "name": "@pubinfo/components",
+  "type": "module",
+  "version": "1.5.3-beta.2",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "clean": "pnpm rimraf node_modules dist .turbo"
+  },
+  "devDependencies": {
+    "@pubinfo/tsconfig": "workspace:^"
+  }
+}

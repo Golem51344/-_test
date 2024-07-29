@@ -1,0 +1,17 @@
+{
+  "name": "@pubinfo/directives",
+  "type": "module",
+  "version": "1.5.3-beta.2",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "clean": "pnpm rimraf node_modules dist .turbo"
+  },
+  "dependencies": {
+    "@pubinfo/tsconfig": "workspace:^",
+    "medium-zoom": "^1.1.0"
+  }
+}

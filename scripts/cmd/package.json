@@ -1,0 +1,25 @@
+{
+  "name": "@pubinfo/cmd",
+  "type": "module",
+  "version": "1.5.3-beta.2",
+  "private": true,
+  "files": [
+    "./src/index.ts"
+  ],
+  "scripts": {
+    "clean": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf .turbo",
+    "lint": "eslint . --cache --fix",
+    "build": "unbuild --minify",
+    "stub": "unbuild --stub",
+    "prepack": "unbuild"
+  },
+  "peerDependencies": {
+    "zx": "^7.2.3"
+  },
+  "dependencies": {
+    "@pubinfo/tsconfig": "workspace:^"
+  },
+  "devDependencies": {
+    "zx": "^8.0.2"
+  }
+}

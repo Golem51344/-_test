@@ -1,0 +1,7 @@
+{
+  "extends": "@pubinfo/tsconfig/base.json",
+  "include": [
+    "package.json",
+    "src"
+  ]
+}

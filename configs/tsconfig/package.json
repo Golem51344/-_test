@@ -1,0 +1,9 @@
+{
+  "name": "@pubinfo/tsconfig",
+  "version": "1.5.3-beta.2",
+  "private": true,
+  "files": [
+    "base.json",
+    "server.json"
+  ]
+}

@@ -1,0 +1,13 @@
+@import "vxe-table/lib/style.css";
+
+html.dark [data-theme="dark"],
+html.dark [data-theme="dark"] *,
+html.dark [data-theme="dark"]::before,
+html.dark [data-theme="dark"]::after {
+  --vxe-table-header-background-color: #1d1d1d;
+  --vxe-table-body-background-color: #141414;
+  --vxe-table-border-color: rgb(253 253 253 / 12%);
+  --vxe-table-header-font-color: rgb(255 255 255 / 85%);
+  --vxe-font-color: rgb(255 255 255 / 85%);
+  --vxe-table-row-hover-background-color: #1d1d1d;
+}

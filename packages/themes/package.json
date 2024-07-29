@@ -1,0 +1,20 @@
+{
+  "name": "@pubinfo/themes",
+  "type": "module",
+  "version": "1.5.3-beta.2",
+  "private": true,
+  "description": "主题颜色配置",
+  "author": {
+    "name": "wsy"
+  },
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./*": {
+      "import": "./src/*.ts"
+    }
+  },
+  "main": "index.ts"
+}

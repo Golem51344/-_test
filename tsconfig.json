@@ -1,0 +1,15 @@
+{
+  "extends": "@pubinfo/tsconfig/server.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "package.json",
+    "vitest.workspace.ts",
+    "tests/**/*.ts",
+    "changelog.config.ts"
+  ],
+  "exclude": [
+    "**/node_modules/**"
+  ]
+}

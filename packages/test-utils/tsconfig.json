@@ -1,0 +1,16 @@
+{
+  "extends": "@pubinfo/tsconfig/server.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": [
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "package.json",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/node_modules/**"
+  ]
+}

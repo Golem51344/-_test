@@ -1,0 +1,8 @@
+{
+  "key": "teat1",
+  "version": "1.5.3",
+  "apps": [
+    "rbac"
+  ],
+  "openapi": true
+}

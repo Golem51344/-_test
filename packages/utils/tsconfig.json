@@ -1,0 +1,22 @@
+{
+  "extends": "@pubinfo/tsconfig/base.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": "./",
+    "module": "esnext",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**/*.d.ts",
+    "types/**/*.ts",
+    "index.ts"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "app": {
+    "account": "account",
+    "captcha": "captcha",
+    "changeOrg": "Switch",
+    "changePassword": "change Password",
+    "check": "Submit",
+    "goLogin": "go login",
+    "hotkeys": "Hotkeys Introduction",
+    "login": "Login",
+    "logout": "Logout",
+    "newPassword": "new password",
+    "password": "password",
+    "preferences": "Preferences",
+    "search": {
+      "enter": "Enter",
+      "esc": "Exit",
+      "input": "Search page, support title, URL fuzzy query",
+      "text": "Search",
+      "type": {
+        "menu": "Search menus",
+        "tab": "Search tabs"
+      },
+      "up_down": "Choice"
+    },
+    "sendCaptcha": "send captcha",
+    "tabbar": {
+      "close": "Close",
+      "closeLeftSide": "Close Leftside Tabs",
+      "closeOtherSide": "Close Otherside Tabs",
+      "closeRightSide": "Close Rightside Tabs",
+      "favorites": {
+        "add": "Add to Favorites",
+        "my-favorites": "my favorites",
+        "remove": "Remove from favorites"
+      },
+      "maximize": "Maximize",
+      "pin": "Pin",
+      "reload": "Reload",
+      "searchTabs": "Search Tabs",
+      "unpin": "Unpin"
+    }
+  },
+  "route": {
+    "demo": "Example",
+    "home": "Home",
+    "login": "Login",
+    "multimenu": {
+      "level2": {
+        "level3": {
+          "page1": "Navigation 2-2-1",
+          "page2": "Navigation 2-2-2",
+          "root": "Navigation 3"
+        },
+        "page": "Navigation 2-1",
+        "root": "Navigation 2"
+      },
+      "page": "Navigation 1",
+      "root": "Multi-level navigation"
+    },
+    "personal": {
+      "notification": "Notification"
+    },
+    "rbac": {
+      "dictionary": "Dictionary",
+      "organization": "Organizational",
+      "permission": "Authority",
+      "resource": "Resource",
+      "role": "Role",
+      "dataPermission": "DataPermission",
+      "title": "Rbac",
+      "blacklist": "Blacklist",
+      "whitelist": "WhiteList",
+      "user": "User",
+      "tenant": "Tenant",
+      "position": "Position",
+      "group": "Group",
+      "region": "Region",
+      "layoutSetting": "LayoutSetting",
+      "themeSetting": "ThemeSetting",
+      "pageSizeSetting": "PageSizeSetting",
+      "pageAnimationSetting": "PageAnimationSetting",
+      "menuSetting": "MenuSetting",
+      "tabbarSetting": "TabbarSetting",
+      "toolbarSetting": "ToolbarSetting",
+      "breadcrumbSetting": "BreadcrumbSetting",
+      "watermarkSetting": "WatermarkSetting",
+      "otherSetting": "OtherSetting",
+      "loginHistory": "LoginHistory",
+      "operateHistory": "OperateHistory",
+      "safeSetting": "SafeSetting"
+    },
+    "undefined": "[ No title ]"
+  }
+}

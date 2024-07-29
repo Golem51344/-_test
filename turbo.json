@@ -1,0 +1,47 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "tasks": {
+    "build": {
+      "outputs": [
+        "dist/**",
+        "rbac/**"
+      ],
+      "dependsOn": [
+        "^build"
+      ],
+      "outputLogs": "new-only"
+    },
+    "prepack": {
+      "dependsOn": [
+        "^prepack"
+      ],
+      "cache": false,
+      "outputLogs": "new-only"
+    },
+    "stub": {},
+    "lint": {
+      "cache": false
+    },
+    "clean": {
+      "dependsOn": [
+        "^clean"
+      ],
+      "cache": false
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "preview": {
+      "cache": false,
+      "persistent": true
+    },
+    "openapi": {
+      "cache": false,
+      "persistent": true
+    },
+    "svgo": {
+      "cache": false
+    }
+  }
+}

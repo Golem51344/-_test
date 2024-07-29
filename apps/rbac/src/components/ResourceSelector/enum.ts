@@ -1,0 +1,5 @@
+export enum RESOURCE_MODE {
+  ROLE = 1,
+  DATA_PERMISSION = 2,
+}
+export type ResourceMode = RESOURCE_MODE.ROLE | RESOURCE_MODE.DATA_PERMISSION;

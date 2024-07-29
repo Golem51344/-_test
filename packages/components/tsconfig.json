@@ -1,0 +1,26 @@
+{
+  "extends": "@pubinfo/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "#/*": [
+        "types/*"
+      ]
+    },
+    "types": [
+      "vite-plugin-vue-meta-layouts/client",
+      "@intlify/unplugin-vue-i18n/messages"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**/*.d.ts",
+    "types/**/*.ts"
+  ]
+}

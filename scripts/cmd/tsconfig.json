@@ -1,0 +1,10 @@
+{
+  "extends": "@pubinfo/tsconfig/server.json",
+  "compilerOptions": {
+    "target": "ESNext"
+  },
+  "include": [
+    "package.json",
+    "script/src"
+  ]
+}

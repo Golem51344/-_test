@@ -1,0 +1,95 @@
+{
+  "app": {
+    "account": "用户名",
+    "captcha": "验证码",
+    "check": "确认",
+    "goLogin": "去登录",
+    "hotkeys": "快捷键介绍",
+    "login": "登录",
+    "logout": "退出登录",
+    "newPassword": "新密码",
+    "changePassword": "修改密码",
+    "password": "密码",
+    "preferences": "个人偏好设置",
+    "changeOrg": "切换组织",
+    "search": {
+      "enter": "访问",
+      "esc": "退出",
+      "input": "搜索页面，支持标题、URL模糊查询",
+      "text": "搜索",
+      "type": {
+        "menu": "搜索导航菜单",
+        "tab": "搜索标签页"
+      },
+      "up_down": "切换"
+    },
+    "sendCaptcha": "发送验证码",
+    "tabbar": {
+      "close": "关闭标签页",
+      "closeLeftSide": "关闭左侧标签页",
+      "closeOtherSide": "关闭其它标签页",
+      "closeRightSide": "关闭右侧标签页",
+      "favorites": {
+        "add": "添加到收藏夹",
+        "my-favorites": "我的收藏夾",
+        "remove": "从收藏夹移除"
+      },
+      "maximize": "最大化",
+      "pin": "固定",
+      "reload": "重新加载",
+      "searchTabs": "搜索标签页",
+      "unpin": "取消固定"
+    }
+  },
+  "route": {
+    "demo": "演示管理系统",
+    "home": "主页",
+    "login": "登录",
+    "multimenu": {
+      "level2": {
+        "level3": {
+          "page1": "导航2-2-1",
+          "page2": "导航2-2-2",
+          "root": "导航3"
+        },
+        "page": "导航2-1",
+        "root": "导航2"
+      },
+      "page": "导航1",
+      "root": "多级导航"
+    },
+    "personal": {
+      "notification": "通知中心"
+    },
+    "rbac": {
+      "dictionary": "字典管理",
+      "organization": "组织管理",
+      "permission": "权限管理",
+      "resource": "资源管理",
+      "role": "角色管理",
+      "dataPermission": "数据权限管理",
+      "title": "权限管理系统",
+      "blacklist": "黑名单管理",
+      "whitelist": "白名单管理",
+      "user": "用户管理",
+      "tenant": "租户管理",
+      "position": "岗位管理",
+      "group": "群组管理",
+      "region": "区域管理",
+      "layoutSetting": "布局配置",
+      "themeSetting": "主题配置",
+      "pageSizeSetting": "页宽配置",
+      "pageAnimationSetting": "页面动画配置",
+      "menuSetting": "导航栏配置",
+      "tabbarSetting": "标签栏配置",
+      "toolbarSetting": "工具栏配置",
+      "breadcrumbSetting": "面包屑配置",
+      "watermarkSetting": "页面水印配置",
+      "otherSetting": "其他配置",
+      "loginHistory": "登录日志",
+      "operateHistory": "操作日志",
+      "safeSetting": "安全配置"
+    },
+    "undefined": "[ 无标题 ]"
+  }
+}

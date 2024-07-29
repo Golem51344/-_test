@@ -1,0 +1,27 @@
+{
+  "extends": "@pubinfo/tsconfig/server.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "#tests/*": [
+        "src/tests/*"
+      ]
+    },
+    "types": [
+      "vitest/globals",
+      "vite/client"
+    ]
+  },
+  "include": [
+    "package.json",
+    "vite.config.ts",
+    "vite/**/*.ts",
+    "scripts/**/*.ts",
+    "types/**/auto-imports.d.ts"
+  ],
+  "exclude": [
+    "types/router.d.ts",
+    "**/node_modules/**"
+  ]
+}
